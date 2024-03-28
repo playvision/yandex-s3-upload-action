@@ -26,6 +26,14 @@ inputs:
         description: "Clear ALL storage"
         default: 'false'
         required: false
+    cacheControl:
+        description: "Cache-Control header value for uploaded objects"
+        default: ""
+        required: false
+    ignore:
+        description: "Ignored file/directory names, separated with semicolons"
+        default: ""
+        required: false
 
 runs:
     using: "node16"
