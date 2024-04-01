@@ -21,7 +21,7 @@ async function main() {
       secretAccessKey: inputs.secretAccessKey,
     },
     Bucket: inputs.bucket,
-    debug: false, // Дебаг в консоли, потом можете удалить в релизе
+    debug: true, // Дебаг в консоли, потом можете удалить в релизе
   });
 
   if (inputs.clearBucket) {
