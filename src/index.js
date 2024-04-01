@@ -33,7 +33,7 @@ async function main() {
 
   const ignoreList = inputs.ignore ? inputs.ignore.split(';') : undefined;
 
-  console.log("Cache-Control: " + inputs.cacheControl);
+  console.log("Cache-Control: " + inputs.cacheControl );
 
   // Относительный путь:
   const upload = await s3.Upload(
