@@ -19,7 +19,7 @@
   "homepage": "https://github.com/paulvstrashnov/yandex-s3-upload-action#readme",
   "dependencies": {
     "@actions/core": "^1.8",
-    "easy-yandex-s3": "https://github.com/playvision/easy-yandex-s3"
+    "easy-yandex-s3": "git+https://github.com/playvision/easy-yandex-s3.git#a0fb7a9e06da101e6a1901e580aca9996d383d18"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.33"
